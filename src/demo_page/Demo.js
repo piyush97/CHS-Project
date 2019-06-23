@@ -1,8 +1,19 @@
 import React, { Component } from "react";
 import Footer from "../components/Footer";
-
+import Typed from "react-typed";
+import CountUp from "react-countup";
+import VisibilitySensor from "react-visibility-sensor";
 import "./demo.css";
 class Demo extends Component {
+  state = {
+    didViewCountUp: false
+  };
+  onVisibilityChange = isVisible => {
+    if (isVisible) {
+      this.setState({ didViewCountUp: true });
+    }
+  };
+
   render() {
     return (
       <div className="body">
@@ -58,18 +69,56 @@ class Demo extends Component {
               <div className="row">
                 <div className="hero-content text-center col-12">
                   <h1>
-                    <strong>CHS</strong>Creative House Scaffolding LLC
+                    <Typed
+                      strings={[
+                        "C",
+                        "H",
+                        "S",
+                        "Creative",
+                        "House",
+                        "Scaffolding",
+                        "Creative House Scaffolding LLC"
+                      ]}
+                      typeSpeed={80}
+                    />
                   </h1>
-                  <p>
-                    Your Reliable Scaffolding Partner for Contracts, Hire &
-                    Sales
-                  </p>
-                  <a className="buy-btn" href="#demo">
-                    View Demo
-                  </a>
                 </div>
               </div>
             </div>
+          </div>
+
+          <div>
+            {/*====================  fun fact area ====================*/}
+
+            <div className="grid-container" style={{ display: "grid" }}>
+              <div className="grid-item" style={{ display: "inline-grid" }}>
+                <img src={`assets/img/icons/`} alt="" />
+                <h1 style={{ color: "black" }}>
+                  <VisibilitySensor
+                    onChange={this.onVisibilityChange}
+                    offset={{ top: 10 }}
+                    delayedCall
+                  >
+                    <CountUp end={this.state.didViewCountUp ? 575 : 0} />
+                  </VisibilitySensor>
+                </h1>
+                <h4>Customers</h4>
+              </div>
+            </div>
+            <div className="grid-item" style={{ display: "inline-grid" }}>
+              <img src={`assets/img/icons/`} alt="" />
+              <h1 style={{ color: "black" }}>
+                <VisibilitySensor
+                  onChange={this.onVisibilityChange}
+                  offset={{ top: 10 }}
+                  delayedCall
+                >
+                  <CountUp end={this.state.didViewCountUp ? 975 : 0} />
+                </VisibilitySensor>
+              </h1>
+              <h4>Customers</h4>
+            </div>
+            {/*====================  End of fun fact area  ====================*/}
           </div>
           <div
             className="footer-section section pt-65 pb-50 overlay bg-img"

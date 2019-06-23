@@ -48,7 +48,7 @@ class NavBar extends Component {
                     {/* top bar right */}
                     <div className="top-bar-right-wrapper">
                       <a
-                        href={`${process.env.PUBLIC_URL}/contact-us`}
+                        href={`${process.env.PUBLIC_URL}/`}
                         className="ht-btn ht-btn--default d-inline-block"
                       >
                         GET A QUOTE
@@ -67,7 +67,7 @@ class NavBar extends Component {
                     <div className="header-info-wrapper align-items-center">
                       {/* logo */}
                       <div className="logo">
-                        <a href={`${process.env.PUBLIC_URL}/home-one`}>
+                        <a href={`${process.env.PUBLIC_URL}/`}>
                           <img
                             src="assets/img/logo/logo.png"
                             className="img-fluid"
@@ -86,7 +86,7 @@ class NavBar extends Component {
                               Phone
                             </h6>
                             <p className="header-info-single-item__subtitle">
-                              98 9875 5968 54
+                              + 971 4 447 4117
                             </p>
                           </div>
                         </div>
@@ -129,137 +129,85 @@ class NavBar extends Component {
                         <nav>
                           <ul>
                             <li className="has-children has-children--multilevel-submenu">
-                              <a href={`${process.env.PUBLIC_URL}/home-one`}>
-                                HOME
-                              </a>
+                              <a href={`${process.env.PUBLIC_URL}/`}>HOME</a>
                               <ul className="submenu">
                                 <li>
-                                  <a
-                                    href={`${process.env.PUBLIC_URL}/home-one`}
-                                  >
+                                  <a href={`${process.env.PUBLIC_URL}/`}>
                                     Homepage One
                                   </a>
                                 </li>
                                 <li>
-                                  <a
-                                    href={`${process.env.PUBLIC_URL}/home-two`}
-                                  >
+                                  <a href={`${process.env.PUBLIC_URL}/`}>
                                     Homepage Two
                                   </a>
                                 </li>
                               </ul>
                             </li>
                             <li>
-                              <a href={`${process.env.PUBLIC_URL}/about-us`}>
-                                ABOUT
-                              </a>
+                              <a href={`${process.env.PUBLIC_URL}/`}>ABOUT</a>
                             </li>
                             <li className="has-children has-children--multilevel-submenu">
-                              <a href={`${process.env.PUBLIC_URL}/services`}>
-                                SERVICE
-                              </a>
+                              <a href={`${process.env.PUBLIC_URL}/`}>SERVICE</a>
                               <ul className="submenu">
                                 <li>
-                                  <a
-                                    href={`${process.env.PUBLIC_URL}/services`}
-                                  >
+                                  <a href={`${process.env.PUBLIC_URL}/`}>
                                     Service Page
                                   </a>
                                 </li>
                                 <li>
-                                  <a
-                                    href={`${
-                                      process.env.PUBLIC_URL
-                                    }/service-details-left-sidebar`}
-                                  >
+                                  <a href={`${process.env.PUBLIC_URL}/`}>
                                     Service Details Left Sidebar
                                   </a>
                                 </li>
                                 <li>
-                                  <a
-                                    href={`${
-                                      process.env.PUBLIC_URL
-                                    }/service-details-right-sidebar`}
-                                  >
+                                  <a href={`${process.env.PUBLIC_URL}/`}>
                                     Service Details Right Sidebar
                                   </a>
                                 </li>
                               </ul>
                             </li>
                             <li className="has-children has-children--multilevel-submenu">
-                              <a href={`${process.env.PUBLIC_URL}/projects`}>
-                                PROJECT
-                              </a>
+                              <a href={`${process.env.PUBLIC_URL}/`}>PROJECT</a>
                               <ul className="submenu">
                                 <li>
-                                  <a
-                                    href={`${process.env.PUBLIC_URL}/projects`}
-                                  >
+                                  <a href={`${process.env.PUBLIC_URL}/`}>
                                     Project Page
                                   </a>
                                 </li>
                                 <li>
-                                  <a
-                                    href={`${
-                                      process.env.PUBLIC_URL
-                                    }/project-details`}
-                                  >
+                                  <a href={`${process.env.PUBLIC_URL}/`}>
                                     Project Details
                                   </a>
                                 </li>
                               </ul>
                             </li>
                             <li className="has-children has-children--multilevel-submenu">
-                              <a
-                                href={`${
-                                  process.env.PUBLIC_URL
-                                }/blog-left-sidebar`}
-                              >
-                                BLOG
-                              </a>
+                              <a href={`${process.env.PUBLIC_URL}/`}>BLOG</a>
                               <ul className="submenu">
                                 <li>
-                                  <a
-                                    href={`${
-                                      process.env.PUBLIC_URL
-                                    }/blog-left-sidebar`}
-                                  >
+                                  <a href={`${process.env.PUBLIC_URL}/`}>
                                     Blog Left Sidebar
                                   </a>
                                 </li>
                                 <li>
-                                  <a
-                                    href={`${
-                                      process.env.PUBLIC_URL
-                                    }/blog-right-sidebar`}
-                                  >
+                                  <a href={`${process.env.PUBLIC_URL}/`}>
                                     Blog Right Sidebar
                                   </a>
                                 </li>
                                 <li>
-                                  <a
-                                    href={`${
-                                      process.env.PUBLIC_URL
-                                    }/blog-details-left-sidebar`}
-                                  >
+                                  <a href={`${process.env.PUBLIC_URL}/`}>
                                     Blog Details Left Sidebar
                                   </a>
                                 </li>
                                 <li>
-                                  <a
-                                    href={`${
-                                      process.env.PUBLIC_URL
-                                    }/blog-details-right-sidebar`}
-                                  >
+                                  <a href={`${process.env.PUBLIC_URL}/`}>
                                     Blog Details Right Sidebar
                                   </a>
                                 </li>
                               </ul>
                             </li>
                             <li>
-                              <a href={`${process.env.PUBLIC_URL}/contact-us`}>
-                                CONTACT
-                              </a>{" "}
+                              <a href={`${process.env.PUBLIC_URL}/`}>CONTACT</a>{" "}
                             </li>
                           </ul>
                         </nav>
