@@ -1,19 +1,8 @@
 import React, { Component } from "react";
 import Footer from "../components/Footer";
 import Typed from "react-typed";
-import CountUp from "react-countup";
-import VisibilitySensor from "react-visibility-sensor";
 import "./demo.css";
 class Demo extends Component {
-  state = {
-    didViewCountUp: false
-  };
-  onVisibilityChange = isVisible => {
-    if (isVisible) {
-      this.setState({ didViewCountUp: true });
-    }
-  };
-
   render() {
     return (
       <div className="body">
@@ -54,13 +43,13 @@ class Demo extends Component {
           >
             <div className="container">
               <video
-                src="https://d1nlhv9o12q2aq.cloudfront.net/static/assets-bs4/image/sign/sign-cover-video.mp4"
-                autoplay="autoplay"
+                src="https://slika-api-dev-serverlessdeploymentbucket-1nf3v07u6dz2g.s3.amazonaws.com/bg.mp4"
+                autoPlay="autoplay"
                 loop="loop"
                 id="bgvideo"
-                allowfullscreen="allowfullscreen"
+                allowFullScreen="allowfullscreen"
                 muted="muted"
-                playsinline=""
+                playsInline=""
                 style={{
                   width: "100% !important",
                   height: "100vh !important",
@@ -81,7 +70,7 @@ class Demo extends Component {
                         "Scaffolding",
                         "Creative House Scaffolding LLC"
                       ]}
-                      typeSpeed={80}
+                      typeSpeed={50}
                     />
                   </h1>
                 </div>
