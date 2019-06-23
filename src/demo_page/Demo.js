@@ -176,7 +176,7 @@ class Demo extends Component {
                 </div>
                 {/* Logo */}
                 <div className="col-6 text-right">
-                  <button className="buy-btn">buy Castro</button>
+                  <button className="buy-btn">Products </button>
                 </div>
               </div>
             </div>
@@ -185,9 +185,24 @@ class Demo extends Component {
           {/* Start Hero Section */}
           <div
             className="hero-section section overlay"
-            style={{ height: "100vh" }}
+            style={{ height: "100vh", width: "100% !important" }}
           >
             <div className="container">
+              <video
+                src="https://d1nlhv9o12q2aq.cloudfront.net/static/assets-bs4/image/sign/sign-cover-video.mp4"
+                autoplay="autoplay"
+                loop="loop"
+                id="bgvideo"
+                allowfullscreen="allowfullscreen"
+                muted="muted"
+                playsinline=""
+                style={{
+                  width: "100% !important",
+                  height: "100vh !important",
+                  objectFit: "cover"
+                }}
+                className="w-100 video-height"
+              />
               <div className="row">
                 <div className="hero-content text-center col-12">
                   <h1>
@@ -243,7 +258,7 @@ class Demo extends Component {
                     className="buy-btn float-right"
                     href="//themeforest.net/user/hastech/portfolio"
                   >
-                    buy Castro
+                    Products
                   </a>
                 </div>
               </div>

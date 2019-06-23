@@ -3,6 +3,7 @@
 =============================================*/
 
 .landing-page-wrapper {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   .landing-hero-bg {
     background-image: url("/assets/img/landing/hero-bg.jpg");
   }
@@ -685,8 +686,7 @@
   }
 
   /*-- Section Title --*/
-  .section-title {
-  }
+
   .section-title h1 {
     color: #373737;
     display: block;

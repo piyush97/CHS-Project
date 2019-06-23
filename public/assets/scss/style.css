@@ -4504,12 +4504,15 @@
 /*=============================================
 =            Default CSS            =
 =============================================*/
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -4519,7 +4522,7 @@ body {
   font-style: normal;
   font-weight: 400;
   visibility: visible;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   color: #1d1d25;
   position: relative;
   background-color: #ffffff;
@@ -4536,9 +4539,14 @@ body.boxed {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #1d1d25;
-  font-family: "Roboto", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 700;
   margin-top: 0;
   line-height: 1.23;
@@ -4572,7 +4580,8 @@ p:last-child {
   margin-bottom: 0;
 }
 
-a, button {
+a,
+button {
   color: inherit;
   display: inline-block;
   line-height: inherit;
@@ -4580,7 +4589,11 @@ a, button {
   cursor: pointer;
 }
 
-a, button, img, input, span {
+a,
+button,
+img,
+input,
+span {
   -webkit-transition: all 0.1s ease 0s;
   transition: all 0.1s ease 0s;
 }
@@ -4599,7 +4612,8 @@ a:hover {
   text-decoration: none;
 }
 
-button, input[type="submit"] {
+button,
+input[type="submit"] {
   cursor: pointer;
 }
 
@@ -5369,7 +5383,7 @@ input::placeholder {
 }
 
 .top-bar-right-wrapper .text a {
-  color: #05103B;
+  color: #05103b;
 }
 
 .top-bar-right-wrapper .text a:hover {
@@ -8025,35 +8039,35 @@ button.scroll-top.show {
 }
 
 .team .content .social a:hover.facebook {
-  background-color: #4867AA;
+  background-color: #4867aa;
 }
 
 .team .content .social a:hover.twitter {
-  background-color: #1DA1F2;
+  background-color: #1da1f2;
 }
 
 .team .content .social a:hover.linkedin {
-  background-color: #007BB6;
+  background-color: #007bb6;
 }
 
 .team .content .social a:hover.google {
-  background-color: #DD5144;
+  background-color: #dd5144;
 }
 
 .team .content .social a:hover.instagram {
-  background-color: #B23A94;
+  background-color: #b23a94;
 }
 
 .team .content .social a:hover.pinterest {
-  background-color: #BD081B;
+  background-color: #bd081b;
 }
 
 .team .content .social a:hover.skype {
-  background-color: #00A9F0;
+  background-color: #00a9f0;
 }
 
 .team .content .social a:hover.tumblr {
-  background-color: #36465D;
+  background-color: #36465d;
 }
 
 .team .content .social a i {
@@ -8063,43 +8077,43 @@ button.scroll-top.show {
 }
 
 .team .content .social a.facebook {
-  border-color: #4867AA;
-  color: #4867AA;
+  border-color: #4867aa;
+  color: #4867aa;
 }
 
 .team .content .social a.twitter {
-  border-color: #1DA1F2;
-  color: #1DA1F2;
+  border-color: #1da1f2;
+  color: #1da1f2;
 }
 
 .team .content .social a.linkedin {
-  border-color: #007BB6;
-  color: #007BB6;
+  border-color: #007bb6;
+  color: #007bb6;
 }
 
 .team .content .social a.google {
-  border-color: #DD5144;
-  color: #DD5144;
+  border-color: #dd5144;
+  color: #dd5144;
 }
 
 .team .content .social a.instagram {
-  border-color: #B23A94;
-  color: #B23A94;
+  border-color: #b23a94;
+  color: #b23a94;
 }
 
 .team .content .social a.pinterest {
-  border-color: #BD081B;
-  color: #BD081B;
+  border-color: #bd081b;
+  color: #bd081b;
 }
 
 .team .content .social a.skype {
-  border-color: #00A9F0;
-  color: #00A9F0;
+  border-color: #00a9f0;
+  color: #00a9f0;
 }
 
 .team .content .social a.tumblr {
-  border-color: #36465D;
-  color: #36465D;
+  border-color: #36465d;
+  color: #36465d;
 }
 
 .team:hover {
@@ -9565,6 +9579,7 @@ blockquote.blockquote .author {
 =            landing page            =
 =============================================*/
 .landing-page-wrapper {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   /*************************
     1.General
   *************************/
