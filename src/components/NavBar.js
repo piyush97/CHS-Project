@@ -128,83 +128,8 @@ class NavBar extends Component {
                       <div className="header-navigation__nav position-static">
                         <nav>
                           <ul>
-                            <li className="has-children has-children--multilevel-submenu">
+                            <li className="">
                               <a href={`${process.env.PUBLIC_URL}/`}>HOME</a>
-                              <ul className="submenu">
-                                <li>
-                                  <a href={`${process.env.PUBLIC_URL}/`}>
-                                    Homepage One
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href={`${process.env.PUBLIC_URL}/`}>
-                                    Homepage Two
-                                  </a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li>
-                              <a href={`${process.env.PUBLIC_URL}/`}>ABOUT</a>
-                            </li>
-                            <li className="has-children has-children--multilevel-submenu">
-                              <a href={`${process.env.PUBLIC_URL}/`}>SERVICE</a>
-                              <ul className="submenu">
-                                <li>
-                                  <a href={`${process.env.PUBLIC_URL}/`}>
-                                    Service Page
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href={`${process.env.PUBLIC_URL}/`}>
-                                    Service Details Left Sidebar
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href={`${process.env.PUBLIC_URL}/`}>
-                                    Service Details Right Sidebar
-                                  </a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li className="has-children has-children--multilevel-submenu">
-                              <a href={`${process.env.PUBLIC_URL}/`}>PROJECT</a>
-                              <ul className="submenu">
-                                <li>
-                                  <a href={`${process.env.PUBLIC_URL}/`}>
-                                    Project Page
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href={`${process.env.PUBLIC_URL}/`}>
-                                    Project Details
-                                  </a>
-                                </li>
-                              </ul>
-                            </li>
-                            <li className="has-children has-children--multilevel-submenu">
-                              <a href={`${process.env.PUBLIC_URL}/`}>BLOG</a>
-                              <ul className="submenu">
-                                <li>
-                                  <a href={`${process.env.PUBLIC_URL}/`}>
-                                    Blog Left Sidebar
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href={`${process.env.PUBLIC_URL}/`}>
-                                    Blog Right Sidebar
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href={`${process.env.PUBLIC_URL}/`}>
-                                    Blog Details Left Sidebar
-                                  </a>
-                                </li>
-                                <li>
-                                  <a href={`${process.env.PUBLIC_URL}/`}>
-                                    Blog Details Right Sidebar
-                                  </a>
-                                </li>
-                              </ul>
                             </li>
                             <li>
                               <a href={`${process.env.PUBLIC_URL}/`}>CONTACT</a>{" "}
