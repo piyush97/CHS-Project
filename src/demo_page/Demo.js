@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Pages from "./components/Pages";
-import Features from "./components/Features";
+import Footer from "../components/Footer";
+
 import "./demo.css";
 class Demo extends Component {
   render() {
@@ -78,8 +78,7 @@ class Demo extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-12">
-                  <h1>Make your website come to life quickly.</h1>
-                  <p className="buy-btn float-right">Products</p>
+                  <Footer />
                 </div>
               </div>
             </div>
