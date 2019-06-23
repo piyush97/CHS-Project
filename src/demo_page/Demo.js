@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Pages from "./components/Pages";
 import Features from "./components/Features";
 import Suggestions from "./components/Suggestions";
-
+import "./demo.css";
 class Demo extends Component {
   render() {
     let demos = [
@@ -153,7 +153,7 @@ class Demo extends Component {
     ];
 
     return (
-      <div>
+      <div className="body">
         <div className="landing-page-wrapper">
           {/* Start Header Section */}
           <div className="header-section section sticker">
