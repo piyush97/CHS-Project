@@ -98,13 +98,19 @@ class Footer extends Component {
                           </p>
                           <ul className="contact-details">
                             <li>
-                              <span>P:</span>Tel : + 971 4 447 4117
+                              <span>P:</span>
+                              <a href="tel:+97144474117">+ 971 4 447 4117</a>
                             </li>
                             <li>
-                              <span>F:</span> + 971 4 447 4116
+                              <span>F:</span>
+                              <a href="tel:+97144474117"> + 971 4 447 4116</a>
                             </li>
                             <li>
-                              <span>E:</span> info@chsdxb.com
+                              <span>E:</span>
+                              <a href="mailto:info@chsdxb.com">
+                                {" "}
+                                info@chsdxb.com
+                              </a>
                             </li>
                           </ul>
                         </div>
