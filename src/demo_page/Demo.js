@@ -39,7 +39,9 @@ class Demo extends Component {
                 </div>
                 {/* Logo */}
                 <div className="col-6 text-right">
-                  <button className="buy-btn">Products </button>
+                  <a className="buy-btn" href="/products">
+                    Products{" "}
+                  </a>
                 </div>
               </div>
             </div>
@@ -85,40 +87,6 @@ class Demo extends Component {
                 </div>
               </div>
             </div>
-          </div>
-
-          <div>
-            {/*====================  fun fact area ====================*/}
-
-            <div className="grid-container" style={{ display: "grid" }}>
-              <div className="grid-item" style={{ display: "inline-grid" }}>
-                <img src={`assets/img/icons/`} alt="" />
-                <h1 style={{ color: "black" }}>
-                  <VisibilitySensor
-                    onChange={this.onVisibilityChange}
-                    offset={{ top: 10 }}
-                    delayedCall
-                  >
-                    <CountUp end={this.state.didViewCountUp ? 575 : 0} />
-                  </VisibilitySensor>
-                </h1>
-                <h4>Customers</h4>
-              </div>
-            </div>
-            <div className="grid-item" style={{ display: "inline-grid" }}>
-              <img src={`assets/img/icons/`} alt="" />
-              <h1 style={{ color: "black" }}>
-                <VisibilitySensor
-                  onChange={this.onVisibilityChange}
-                  offset={{ top: 10 }}
-                  delayedCall
-                >
-                  <CountUp end={this.state.didViewCountUp ? 975 : 0} />
-                </VisibilitySensor>
-              </h1>
-              <h4>Customers</h4>
-            </div>
-            {/*====================  End of fun fact area  ====================*/}
           </div>
           <div
             className="footer-section section pt-65 pb-50 overlay bg-img"
