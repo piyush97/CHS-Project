@@ -2,10 +2,20 @@ import React, { Component } from "react";
 import Footer from "../components/Footer";
 import Typed from "react-typed";
 import "./demo.css";
+import AddToHomescreen from "react-add-to-homescreen";
 class Demo extends Component {
+  handleAddToHomescreenClick = () => {
+    alert(`
+      1. Open Share menu
+      2. Tap on "Add to Home Screen" button`);
+  };
   render() {
     return (
       <div className="body">
+        <AddToHomescreen
+          onAddToHomescreenClick={this.handleAddToHomescreenClick}
+        />
+
         <div className="landing-page-wrapper">
           {/* Start Header Section */}
           <div className="header-section section sticker">
