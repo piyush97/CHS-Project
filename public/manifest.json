@@ -1,8 +1,9 @@
 {
   "short_name": "CHS",
   "name": "Creative House Scaffolding LLC",
+  "description": "Creative House Scaffolding LLC",
   "theme_color": "#fff",
-  "background_color": "#111",
+  "background_color": "#fff",
   "display": "standalone",
   "icons": [
     {
@@ -26,5 +27,5 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/?utm_source=homescreen"
+  "start_url": "/"
 }
