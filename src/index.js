@@ -8,35 +8,38 @@ import PageNotFound from "./pages/404";
 import NoMAtch from "./pages/404";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import * as serviceWorker from "./serviceWorker";
+import HttpsRedirect from "react-https-redirect";
 
 class Root extends Component {
   render() {
     return (
-      <BrowserRouter basename={"/"}>
-        <Switch>
-          <Route
-            exact
-            path={`${process.env.PUBLIC_URL}/`}
-            component={DemoIndex}
-          />
-          <Route
-            exact
-            path={`${process.env.PUBLIC_URL}/contact-us`}
-            component={Contact}
-          />
-          <Route
-            exact
-            path={`${process.env.PUBLIC_URL}/404`}
-            component={PageNotFound}
-          />
-          <Route
-            exact
-            path={`${process.env.PUBLIC_URL}/products`}
-            component={HomeOne}
-          />
-          <Route component={NoMAtch} />
-        </Switch>
-      </BrowserRouter>
+      <HttpsRedirect>
+        <BrowserRouter basename={"/"}>
+          <Switch>
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/`}
+              component={DemoIndex}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/contact-us`}
+              component={Contact}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/404`}
+              component={PageNotFound}
+            />
+            <Route
+              exact
+              path={`${process.env.PUBLIC_URL}/products`}
+              component={HomeOne}
+            />
+            <Route component={NoMAtch} />
+          </Switch>
+        </BrowserRouter>
+      </HttpsRedirect>
     );
   }
 }
