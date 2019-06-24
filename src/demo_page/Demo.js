@@ -71,6 +71,7 @@ class Demo extends Component {
                 <div className="hero-content text-center col-12">
                   <h1>
                     <Typed
+                      style={{ lineHeight: "20px", lineHeightStep: "29px" }}
                       strings={[
                         "C",
                         "H",
@@ -78,11 +79,12 @@ class Demo extends Component {
                         "Creative",
                         "House",
                         "Scaffolding",
-                        "Creative House Scaffolding LLC"
+                        "C H S"
                       ]}
                       typeSpeed={50}
                     />
                   </h1>
+                  <p>Creative House Scaffolding LLC</p>
                 </div>
               </div>
             </div>
