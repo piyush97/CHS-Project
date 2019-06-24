@@ -32,17 +32,15 @@ class HeroSliderOne extends Component {
       {
         bgImg:
           "https://image.freepik.com/free-photo/construction-site_53876-14088.jpg",
-        sliderTitle: "Build Your Dream With Passion",
-        sliderSubtitle:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.",
+        sliderTitle: "Products to be added here",
+        sliderSubtitle: "Image to be taken",
         btnLink: "contact-us"
       },
       {
         bgImg:
           "https://image.freepik.com/free-photo/industry-construction-site-labor-people-worker-wire-steel-bar_39730-1474.jpg",
-        sliderTitle: "Build Your Dream With Passion",
-        sliderSubtitle:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusm tempor incididunt ut labore et dolore.",
+        sliderTitle: "Products to be added here",
+        sliderSubtitle: "Products to be added here",
         btnLink: "contact-us"
       },
       {

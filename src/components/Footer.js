@@ -24,9 +24,12 @@ class Footer extends Component {
                           </a>
                         </div>
                         <div className="footer-desc">
-                          Lorem ipsum dolor sit amet consect adipisici elit, sed
-                          do eiusmod tempor incididuk ut labore et dolore magna
-                          aliqua Ut enim
+                          About usDownloads Creative House Scaffolding LLC (CHS)
+                          was co-founded ten years ago in Dubai with clear
+                          vision and mission to provide high quality Products,
+                          Solutions and Services to customers in various
+                          business segments and geographies spanning the Middle
+                          East and Africa
                         </div>
                       </div>
                     </div>
