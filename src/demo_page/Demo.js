@@ -3,7 +3,6 @@ import Footer from "../components/Footer";
 import "./demo.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import FeatureIcon from "../components/FeatureIcon";
-import AddToHomescreen from "react-add-to-homescreen";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
