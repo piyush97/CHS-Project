@@ -19,7 +19,7 @@ class Demo extends Component {
         tabMenuName: "Sohar Power Plant"
       },
       { iconName: "flaticon-015-cart", tabMenuName: "Saudi-Aramco" },
-      { iconName: "flaticon-010-tank-1", tabMenuName: "Power and Energy" }
+      { iconName: "flaticon-010-tank-1", tabMenuName: "Ruwais-Refinery" }
     ];
 
     let serviceTabMenuDatalist = serviceTabMenuData.map((val, i) => {
@@ -62,10 +62,11 @@ class Demo extends Component {
         serviceLink: "service-details-left-sidebar"
       },
       {
-        bgUrl: "service-tab1.jpg",
-        contentTitle: "Power and Energy",
+        bgUrl:
+          "http://www.chsdxb.com/wp-content/gallery/gallery/thumbs/thumbs_Ruwais-Refinery.jpg",
+        contentTitle: "Ruwais-Refinery",
         contentDesc:
-          "Lorem ipsum dolor sit amet, consectet adipisicin elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "CHS is proud to be associated with some of the renowned projects in the region with a varying degree of complexities involved in each of these projects. ",
         serviceLink: "service-details-left-sidebar"
       }
     ];
