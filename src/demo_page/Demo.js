@@ -8,11 +8,6 @@ import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
 class Demo extends Component {
-  handleAddToHomescreenClick = () => {
-    alert(`
-      1. Open Share menu
-      2. Tap on "Add to Home Screen" button`);
-  };
   render() {
     let serviceTabMenuData = [
       { iconName: "flaticon-002-welding", tabMenuName: "Enoc Refinery" },
@@ -100,10 +95,6 @@ class Demo extends Component {
 
     return (
       <div className="body">
-        <AddToHomescreen
-          onAddToHomescreenClick={this.handleAddToHomescreenClick}
-        />
-
         <div className="landing-page-wrapper">
           {/* Start Header Section */}
           <div className="header-section section sticker">
