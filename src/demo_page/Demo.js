@@ -4,6 +4,9 @@ import "./demo.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import FeatureIcon from "../components/FeatureIcon";
 import AddToHomescreen from "react-add-to-homescreen";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
 class Demo extends Component {
   handleAddToHomescreenClick = () => {
     alert(`
@@ -93,6 +96,7 @@ class Demo extends Component {
         </TabPanel>
       );
     });
+    AOS.init();
 
     return (
       <div className="body">
@@ -166,6 +170,17 @@ class Demo extends Component {
                 </div>
               </div>
             </div>
+            <center>
+              {" "}
+              <i
+                style={{
+                  fontWeight: "800",
+                  color: "white",
+                  paddingTop: "20%"
+                }}
+                className="fa fa-angle-down iconic animated bounce infinite"
+              />
+            </center>
           </div>
 
           <div>
@@ -176,7 +191,7 @@ class Demo extends Component {
                   <div className="col-lg-12">
                     <div className="section-title-area text-center">
                       <h2
-                        className="section-title section-space--bottom--50"
+                        className="section-title section-space--bottom--50 "
                         style={{ paddingTop: "40px" }}
                       >
                         PROJECTS <span className="title-icon" />
@@ -186,7 +201,7 @@ class Demo extends Component {
                   <div className="col-lg-12">
                     {/* service tab wrapper */}
 
-                    <div className="service-tab-wrapper">
+                    <div className="service-tab-wrapper" data-aos="slide-left">
                       <Tabs>
                         <div className="row no-gutters">
                           <div className="col-md-4">
@@ -209,8 +224,9 @@ class Demo extends Component {
             </div>
             {/*====================  End of service tab area  ====================*/}
           </div>
-
-          <FeatureIcon />
+          <div data-aos="slide-right">
+            <FeatureIcon />
+          </div>
           <div
             className="footer-section section pt-65 pb-50 overlay bg-img"
             data-bg="assets/img/landing/hero-bg.jpg"
