@@ -46,8 +46,9 @@ class Demo extends Component {
         serviceLink: "service-details-left-sidebar"
       },
       {
-        bgUrl: "service-tab1.jpg",
-        contentTitle: "Work Management",
+        bgUrl:
+          "http://www.chsdxb.com/wp-content/gallery/gallery/thumbs/thumbs_Sohar-Power-Plant.jpg",
+        contentTitle: "Sohar Power Plant",
         contentDesc:
           "CHS is proud to be associated with some of the renowned projects in the region with a varying degree of complexities involved in each of these projects. ",
         serviceLink: "service-details-left-sidebar"
