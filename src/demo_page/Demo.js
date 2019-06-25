@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import Footer from "../components/Footer";
-import Typed from "react-typed";
 import "./demo.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-
+import FeatureIcon from "../components/FeatureIcon";
 import AddToHomescreen from "react-add-to-homescreen";
 class Demo extends Component {
   handleAddToHomescreenClick = () => {
@@ -153,23 +152,17 @@ class Demo extends Component {
                 className="w-100 video-height"
               />
               <div className="row">
-                <div className="hero-content text-center col-12">
-                  <h1>
-                    <Typed
-                      style={{ lineHeight: "20px", lineHeightStep: "29px" }}
-                      strings={[
-                        "C",
-                        "H",
-                        "S",
-                        "Creative",
-                        "House",
-                        "Scaffolding",
-                        "C H S"
-                      ]}
-                      typeSpeed={50}
-                    />
+                <div
+                  className="hero-content text-center col-12"
+                  style={{
+                    border: "3px solid white",
+                    paddingTop: "10%",
+                    paddingBottom: "10%"
+                  }}
+                >
+                  <h1 className="animated bounceInUp">
+                    Creative House Scaffolding LLC
                   </h1>
-                  <p>Creative House Scaffolding LLC</p>
                 </div>
               </div>
             </div>
@@ -182,7 +175,10 @@ class Demo extends Component {
                 <div className="">
                   <div className="col-lg-12">
                     <div className="section-title-area text-center">
-                      <h2 className="section-title section-space--bottom--50">
+                      <h2
+                        className="section-title section-space--bottom--50"
+                        style={{ paddingTop: "40px" }}
+                      >
                         PROJECTS <span className="title-icon" />
                       </h2>
                     </div>
@@ -213,6 +209,8 @@ class Demo extends Component {
             </div>
             {/*====================  End of service tab area  ====================*/}
           </div>
+
+          <FeatureIcon />
           <div
             className="footer-section section pt-65 pb-50 overlay bg-img"
             data-bg="assets/img/landing/hero-bg.jpg"
