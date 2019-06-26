@@ -132,11 +132,12 @@ class Demo extends Component {
             <div className="container">
               <video
                 src="https://slika-api-dev-serverlessdeploymentbucket-1nf3v07u6dz2g.s3.amazonaws.com/My+Movie.mp4"
-                autoplay="autoplay"
+                autoPlay="autoplay"
                 loop="loop"
-                playsinline="playsinline"
                 id="bgvideo"
                 allowFullScreen="allowfullscreen"
+                muted="muted"
+                playsInline=""
                 style={{
                   width: "100% !important",
                   height: "100vh !important",
