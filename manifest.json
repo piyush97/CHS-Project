@@ -1,0 +1,31 @@
+{
+  "short_name": "CHS",
+  "name": "Creative House Scaffolding LLC",
+  "description": "Creative House Scaffolding LLC",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "assets/icons/launcher-icon-1x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "assets/icons/launcher-icon-2x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "assets/icons/launcher-icon-3x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "assets/icons/launchericon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/"
+}

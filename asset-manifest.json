@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/chs-project/static/css/main.2556f710.chunk.css",
+    "main.js": "/chs-project/static/js/main.5087dadb.chunk.js",
+    "main.js.map": "/chs-project/static/js/main.5087dadb.chunk.js.map",
+    "runtime~main.js": "/chs-project/static/js/runtime~main.54d2f7a8.js",
+    "runtime~main.js.map": "/chs-project/static/js/runtime~main.54d2f7a8.js.map",
+    "static/css/2.2ae5a217.chunk.css": "/chs-project/static/css/2.2ae5a217.chunk.css",
+    "static/js/2.9a8ecbf9.chunk.js": "/chs-project/static/js/2.9a8ecbf9.chunk.js",
+    "static/js/2.9a8ecbf9.chunk.js.map": "/chs-project/static/js/2.9a8ecbf9.chunk.js.map",
+    "index.html": "/chs-project/index.html",
+    "precache-manifest.aa1eee318e3fddb7debcd106f188dee0.js": "/chs-project/precache-manifest.aa1eee318e3fddb7debcd106f188dee0.js",
+    "service-worker.js": "/chs-project/service-worker.js",
+    "static/css/2.2ae5a217.chunk.css.map": "/chs-project/static/css/2.2ae5a217.chunk.css.map",
+    "static/css/main.2556f710.chunk.css.map": "/chs-project/static/css/main.2556f710.chunk.css.map",
+    "static/media/index.scss": "/chs-project/static/media/lg.ecff1170.eot"
+  }
+}
